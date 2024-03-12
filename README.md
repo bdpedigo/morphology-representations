@@ -113,6 +113,17 @@ TODO
   - Output to blender
   - Output to neuroglancer
 - Neuron collection
+  - Ability to do things like apply, map etc over a set of neurons
+  - Groupby
+- Metadata
+  - Store metadata about the neuron
+  - Store metadata about the annotations
+  - Store metadata about the mesh and/or skeleton
+- Mutability
+  - E.g turn edits off or on
+- Extensible
+  - Allow subclassing
+  - Having a base abstract class could help with this?
 - Visualization
   - 1D (-ish)
     - Abstract, linear representation of a neuron
@@ -120,6 +131,12 @@ TODO
     - 2D projection of a 3D neuron
     - 2D _embedding_, not necessarily a projection
   - 3D
+- Support for "featurization" of neuron morphologies
+  - Define an API for people to add their own models which operate on these objects
+- Support for fragments of neurons and compositional logic
+  - E.g. dendrite + axon + soma = neuron?
+- Deal with non-neuronal things, like layer or region bounds/masks
+  - E.g. apply a parcellation to a neuron
 
 ## Questions
 
