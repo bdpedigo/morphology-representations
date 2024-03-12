@@ -111,6 +111,7 @@ TODO
 - IO
   - SWC
   - Output to blender
+  - Output to neuroglancer
 - Neuron collection
 - Visualization
   - 1D (-ish)
