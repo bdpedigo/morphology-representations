@@ -70,8 +70,14 @@ utils_io.py
 
 ## Navis
 
+TODO
+
 ## Desiderata
 
+- Principles
+  - Generic
+    - As much of the same tooling should apply for cortical or fly, for example
+      - Maybe requires setting intelligent defaults at runtime based on what you care about, e.g. for skeletonization radius parameters or something
 - Representation itself
   - Represent a mesh and/or a skeleton together
   - Represent point annotations mapped to the mesh and/or the skeleton
@@ -94,11 +100,17 @@ utils_io.py
     - Marching cubes
     - Skeletonization
   - Synapse flow centrality
-  - Branch order (how many branch points between node and root)
-  - Strahler order
+  - Topology
+    - Sholl analysis
+    - Branch order
+    - Strahler order
   - Density of points along an object
+  - NBLAST
+  - Checking if objects are in a volume
+  - Alignment and deformation
 - IO
   - SWC
+  - Output to blender
 - Neuron collection
 - Visualization
   - 1D (-ish)
